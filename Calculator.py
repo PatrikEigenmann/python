@@ -1,4 +1,4 @@
-5#!/bin/python
+#!/bin/python
 # ***************************************************************************************************************************
 # calculator.py - This program first prompts the user to select an operation. Then it asks for two numbers and performs the
 # selected operation on those two numbers. If the user selects division, the program checks if the second number is zero to
