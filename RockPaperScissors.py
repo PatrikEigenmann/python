@@ -1,29 +1,32 @@
-
-#!/bin/python
-# ***************************************************************************************************************************
-# RockPaperScissors.py - The program is a simple implementation of the classic game Rock, Paper, Scissors in Python. It
-# consists of three main functions and a game loop.
+#!/usr/bin/python3
+# ********************************************************************************************************
+# RockPaperScissors.py - The program is a simple implementation of the classic game Rock, Paper, Scissors
+# in Python. It consists of three main functions and a game loop.
 #
-# 1. **get_computer_choice function**: This function is responsible for determining the choice of the computer player. It does
-# this by randomly selecting one of the three possible choices: rock, paper, or scissors.
+# 1. **get_computer_choice function**: This function is responsible for determining the choice of the
+# computer player. It does this by randomly selecting one of the three possible choices: rock, paper, or
+# scissors.
 #
-# 2. **get_winner function**: This function takes the choices of both the player and the computer as input and determines the
-# winner of the game based on the rules of Rock, Paper, Scissors. If the player and computer make the same choice, the game is
-# a tie. Otherwise, the function checks the combinations of choices to determine the winner.
+# 2. **get_winner function**: This function takes the choices of both the player and the computer as input
+# and determines the winner of the game based on the rules of Rock, Paper, Scissors. If the player and
+# computer make the same choice, the game is a tie. Otherwise, the function checks the combinations of
+# choices to determine the winner.
 #
-# 3. **play_game function**: This is the main game loop. It first prompts the player to enter their choice. Then, it calls the
-# `get_computer_choice` function to determine the computer's choice and prints it. Finally, it calls the `get_winner` function
-# to determine and print the winner of the game.
+# 3. **play_game function**: This is the main game loop. It first prompts the player to enter their choice.
+# Then, it calls the `get_computer_choice` function to determine the computer's choice and prints it.
+# Finally, it calls the `get_winner` function to determine and print the winner of the game.
 #
-# The game is played in the console, with the player entering their choice as text. The computer's choice is randomly generated,
-# and the winner is determined based on the rules of the game. The result of the game is then printed to the console.
+# The game is played in the console, with the player entering their choice as text. The computer's choice
+# is randomly generated, and the winner is determined based on the rules of the game. The result of the
+# game is then printed to the console.
 #
-# Please note that this code does not include any error checking. If you enter something other than "rock", "paper", or "scissors",
-# it will not work correctly. You might want to add some error checking to make sure the player's input is valid. 
+# Please note that this code does not include any error checking. If you enter something other than
+# "rock", "paper", or "scissors", it will not work correctly. You might want to add some error checking
+# to make sure the player's input is valid. 
 #
-# Also, this code is designed to be run in a console or terminal. If you're planning to use it in a different context (like
-# a web page or a GUI application), you'll need to modify it to get input and display output in a way that's appropriate for
-# your context. 
+# Also, this code is designed to be run in a console or terminal. If you're planning to use it in a
+# different context (like a web page or a GUI application), you'll need to modify it to get input and
+# display output in a way that's appropriate for your context. 
 # ---------------------------------------------------------------------------------------------------------------------------
 # Author:       Patrik Eigenmann
 # eMail:        p.eigenmann@gmx.net

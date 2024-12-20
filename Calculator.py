@@ -1,22 +1,24 @@
-#!/bin/python
-# ***************************************************************************************************************************
-# calculator.py - This program first prompts the user to select an operation. Then it asks for two numbers and performs the
-# selected operation on those two numbers. If the user selects division, the program checks if the second number is zero to
-# avoid a division by zero error. If the user enters anything other than 1, 2, 3, or 4, the program will output "Invalid
-# input." To use this calculator again, you can call the calculator() function. Please note that this is a very basic
+#!/usr/bin/python3
+# *************************************************************************************************
+# calculator.py - This program first prompts the user to select an operation. Then it asks for two
+# numbers and performs the selected operation on those two numbers. If the user selects division,
+# the program checks if the second number is zero to avoid a division by zero error. If the user
+# enters anything other than 1, 2, 3, or 4, the program will output "Invalid input." To use this
+# calculator again, you can call the calculator() function. Please note that this is a very basic
 # calculator and does not perform error checking beyond what's shown.
-# ---------------------------------------------------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------------------------
 # Author:       Patrik Eigenmann
 # eMail:        p.eigenmann@gmx.net
-# ---------------------------------------------------------------------------------------------------------------------------
-# Sun	2023-12-23  File created.							                                                   Version: 00.01
-# ***************************************************************************************************************************
+# -------------------------------------------------------------------------------------------------
+# Sun	2023-12-23  File created.                                                   Version: 00.01
+# *************************************************************************************************
 def calculator():
     """
-    This program first prompts the user to select an operation. Then it asks for two numbers and performs the
-    selected operation on those two numbers. If the user selects division, the program checks if the second number is zero to
-    avoid a division by zero error. If the user enters anything other than 1, 2, 3, or 4, the program will output �Invalid
-    input." To use this calculator again, you can call the calculator() function. Please note that this is a very basic
+    This program first prompts the user to select an operation. Then it asks for two numbers and
+    performs the selected operation on those two numbers. If the user selects division, the program
+    checks if the second number is zero to avoid a division by zero error. If the user enters
+    anything other than 1, 2, 3, or 4, the program will output �Invalid input." To use this
+    calculat1or again, you can call the calculator() function. Please note that this is a very basic
     calculator and does not perform error checking beyond what�s shown.
     """
     # Promp the selection of operation

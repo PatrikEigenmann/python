@@ -1,4 +1,4 @@
-#!/bin/python
+#!/usr/bin/python3
 # **************************************************************************************************
 # Numbers.py - In this game, the program first generates a random number between 1 and 100. Then
 # it enters a loop where it asks the user to enter their guess. If the user's guess is too high or
@@ -44,4 +44,3 @@ while not is_correct:
     else:
         print(f"Congratulations! You've guessed the number correctly after {number_of_tries} attempts.")
         is_correct = True
-
